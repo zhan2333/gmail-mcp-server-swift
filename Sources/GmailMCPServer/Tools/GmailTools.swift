@@ -1,5 +1,5 @@
 import Foundation
-import MCP
+import FlooMCP
 
 /// Gmail 工具集合入口
 public enum GmailTools {

@@ -1,5 +1,5 @@
 import Foundation
-import MCP
+import FlooMCP
 
 /// 批量操作工具 (2个)
 public enum BatchTools {

@@ -1,5 +1,5 @@
 import Foundation
-import MCP
+import FlooMCP
 
 /// 邮件工具 (6个)
 public enum MessageTools {

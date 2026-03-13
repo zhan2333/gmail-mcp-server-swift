@@ -1,5 +1,5 @@
 import Foundation
-import MCP
+import FlooMCP
 
 /// 标签工具 (5个)
 public enum LabelTools {

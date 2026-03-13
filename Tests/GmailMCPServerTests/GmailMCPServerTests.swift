@@ -1,6 +1,6 @@
 import XCTest
 @testable import GmailMCPServer
-import MCP
+import FlooMCP
 
 final class GmailMCPServerTests: XCTestCase {
 

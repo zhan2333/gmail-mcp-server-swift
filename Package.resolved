@@ -1,13 +1,40 @@
 {
-  "originHash" : "ca4b51ad756d3ed3b944d7ee371b3c21b58f25d32a06840f109ee5f7cb86e496",
+  "originHash" : "4385e807b7fc66f9eac8a5b0f7f0535b27ad27eabba3ba97505511a8dde6bf9b",
   "pins" : [
     {
       "identity" : "eventsource",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mattt/eventsource.git",
       "state" : {
-        "revision" : "ca2a9d90cbe49e09b92f4b6ebd922c03ebea51d0",
+        "revision" : "a3a85a85214caf642abaa96ae664e4c772a59f6e",
+        "version" : "1.4.1"
+      }
+    },
+    {
+      "identity" : "floomcp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zhan2333/FlooMCP.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3e5b2daca8c72ab11e8caa4780f692cae04b8580"
+      }
+    },
+    {
+      "identity" : "swift-atomics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-atomics.git",
+      "state" : {
+        "revision" : "b601256eab081c0f92f059e12818ac1d4f178ff7",
         "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "8d9834a6189db730f6264db7556a7ffb751e99ee",
+        "version" : "1.4.0"
       }
     },
     {
@@ -15,17 +42,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-log.git",
       "state" : {
-        "revision" : "2778fd4e5a12a8aaa30a3ee8285f4ce54c5f3181",
-        "version" : "1.9.1"
+        "revision" : "bbd81b6725ae874c69e9b8c8804d462356b55523",
+        "version" : "1.10.1"
       }
     },
     {
-      "identity" : "swift-sdk",
+      "identity" : "swift-nio",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/modelcontextprotocol/swift-sdk.git",
+      "location" : "https://github.com/apple/swift-nio.git",
       "state" : {
-        "revision" : "c0407a0b52677cb395d824cac2879b963075ba8c",
-        "version" : "0.10.2"
+        "revision" : "b31565862a8f39866af50bc6676160d8dda7de35",
+        "version" : "2.96.0"
       }
     },
     {

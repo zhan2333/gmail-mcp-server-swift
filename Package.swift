@@ -16,13 +16,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/modelcontextprotocol/swift-sdk.git", from: "0.10.0"),
+        .package(url: "https://github.com/zhan2333/FlooMCP.git", branch: "main"),
     ],
     targets: [
         .target(
             name: "GmailMCPServer",
             dependencies: [
-                .product(name: "MCP", package: "swift-sdk"),
+                .product(name: "FlooMCP", package: "FlooMCP"),
             ]
         ),
         .testTarget(

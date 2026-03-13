@@ -1,5 +1,5 @@
 import Foundation
-import MCP
+import FlooMCP
 
 /// 草稿工具 (1个)
 public enum DraftTools {

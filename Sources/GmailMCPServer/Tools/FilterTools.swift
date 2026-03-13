@@ -1,5 +1,5 @@
 import Foundation
-import MCP
+import FlooMCP
 
 /// 过滤器工具 (5个)
 public enum FilterTools {

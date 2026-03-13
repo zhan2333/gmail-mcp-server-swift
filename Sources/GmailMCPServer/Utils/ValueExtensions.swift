@@ -1,5 +1,5 @@
 import Foundation
-import MCP
+import FlooMCP
 
 // MARK: - Value 转换为 Any
 
@@ -194,7 +194,7 @@ extension Value {
 
 // MARK: - [String: Value] 转 [String: Any]
 
-extension Dictionary where Key == String, Value == MCP.Value {
+extension Dictionary where Key == String, Value == FlooMCP.Value {
     /// 转换为 [String: Any]
     public func toAnyDict() -> [String: Any] {
         var result: [String: Any] = [:]
